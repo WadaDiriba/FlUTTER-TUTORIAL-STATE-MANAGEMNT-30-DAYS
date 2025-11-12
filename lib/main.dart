@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tutorial/screens/profile_screen.dart';
-import 'package:flutter_tutorial/screens/statful_widgt.dart';
-import 'package:flutter_tutorial/screens/statless_widgt.dart';
-import 'package:flutter_tutorial/screens/stful_widgetpart3.dart';
+import 'package:flutter_tutorial/screens/setstate_part3.dart';
+
 import 'package:flutter_tutorial/screens/stful_widgetpart4.dart';
-import 'package:flutter_tutorial/screens/stful_widgtpart2.dart';
+import 'package:flutter_tutorial/screens/setState_part1.dart';
+import 'package:flutter_tutorial/screens/setState_part2.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +20,7 @@ class MyApp extends StatelessWidget {
          theme: ThemeData(
           useMaterial3: true,
           colorSchemeSeed: Colors.teal),
-      home:DAY2PART4(), 
+      home:SetstatePart3(), 
     );
   }
 }

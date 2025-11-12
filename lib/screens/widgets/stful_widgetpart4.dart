@@ -12,7 +12,7 @@ class DAY2PART4 extends StatefulWidget {
 class _DAY2PART4State extends State<DAY2PART4> {
 
 
-  Color backgroundColor=Colors.blue;
+ Color backgroundColor=Colors.blue;
 
   Color buttonColor=Colors.green;
 
@@ -25,6 +25,7 @@ bool _isBright=true;
   Random().nextInt(256),
   Random().nextInt(256),
   Random().nextInt(256),
+  
 );
 
 buttonColor = Color.fromRGBO(
